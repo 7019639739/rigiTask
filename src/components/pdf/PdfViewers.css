@@ -1,0 +1,35 @@
+.PdfControls{
+    position: relative;
+    top: -85px;
+    left: 250px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #606061;
+    color: white;
+    width: 25%;
+    border-radius: 10px;
+    /* padding: 10px; */
+}
+
+.react-pdf__Page{
+    background-color: #bebebe !important;
+    border: 34px solid rgb(97 96 96);
+    display: flex;
+    justify-content: center;
+}
+
+.react-pdf__Page__textContent{
+    display: none !important;
+}
+
+.PdfControlsButton:hover{
+    background-color:   #797878;
+    color: #000000;
+    padding: 10px;
+    border-radius: 5px;
+}
+.PdfControlsButton{
+    padding: 10px;
+    height: 40px;
+    width: 40px;
+}
